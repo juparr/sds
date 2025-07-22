@@ -1,24 +1,24 @@
 {
   "codeConnect": {
-    "include": ["src/ui/**/*", "src/figma/**/*"],
+    "include": ["src/app/**/*", "src/figma/**/*"],
     "exclude": ["src/figma/icons/*"],
-    "parser": "react",
+    "parser": "html",
     "importPaths": {
-      "ui/compositions/**/*": "compositions",
-      "ui/icons/*": "icons",
-      "ui/images/*": "images",
-      "ui/layout/**/*": "layout",
-      "ui/primitives/**/*": "primitives"
+      "app/compositions/**/*": "compositions",
+      "app/icons/*": "icons",
+      "app/images/*": "images",
+      "app/layout/**/*": "layout",
+      "app/primitives/**/*": "primitives"
     },
     "paths": {
-      "compositions": ["src/ui/compositions"],
-      "hooks": ["src/ui/hooks"],
-      "icons": ["src/ui/icons"],
-      "images": ["src/ui/images"],
-      "layout": ["src/ui/layout"],
-      "primitives": ["src/ui/primitives"],
-      "providers": ["src/ui/providers"],
-      "utils": ["src/ui/utils"]
+      "compositions": ["src/app/compositions"],
+      "hooks": ["src/app/hooks"],
+      "icons": ["src/app/icons"],
+      "images": ["src/app/images"],
+      "layout": ["src/app/layout"],
+      "primitives": ["src/app/primitives"],
+      "providers": ["src/app/providers"],
+      "utils": ["src/app/utils"]
     },
     "documentUrlSubstitutions": {
       "<FIGMA_ICONS_BASE>": "https://figma.com/design/9XNQvbNAB6UncXMrQSpcPK",
